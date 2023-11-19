@@ -2,10 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Sayfanın tamamını kaplaması için */
+            background: linear-gradient(to right, #4e9ad6, #2d5f8b); /* Mavi gradient arka plan */
+            color: #fff; /* Beyaz renkte yazılar */
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin: 0; /* Başlık margin'ı sıfırlandı */
+            padding-top: 20px; /* Başlık ile listenin arasındaki boşluk */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+            margin: 0; /* Liste margin'ı sıfırlandı */
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.2); /* Arka plan opak beyaz renkte */
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        img {
+            max-width: 100px; /* veya istediğiniz genişlik */
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-right: 10px; /* resimler arasındaki boşluk */
+        }
+
+        p {
+            margin: 0;
+            color: #fff; /* Beyaz renkte yazılar */
+        }
+    </style>
+    <title>Ürün Listesi</title>
 </head>
 <body>
-    Test deneme!!!
+
+    
+    <h2>Ürün Listesi</h2>
+
+    <ul>
+        <li>
+            <img src="1.jpg" alt="Resim 1">
+            <p>Resim 1 ile ilgili açıklama burada.</p>
+        </li>
+        <li>
+            <img src="2.jpg" alt="Resim 2">
+            <p>Resim 2 ile ilgili açıklama burada.</p>
+        </li>
+        <li>
+            <img src="3.jpg" alt="Resim 3">
+            <p>Resim 3 ile ilgili açıklama burada.</p>
+        </li>
+        <li>
+            <img src="4.jpg" alt="Resim 4">
+            <p>Resim 4 ile ilgili açıklama burada.</p>
+        </li>
+        <li>
+            <img src="5.jpg" alt="Resim 5">
+            <p>Resim 5 ile ilgili açıklama burada.</p>
+        </li>
+    </ul>
+
 </body>
 </html>
